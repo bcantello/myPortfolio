@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
+    <title>Brandon Cantello | Software Engineer</title>
+    <script src="https://kit.fontawesome.com/84c405218c.js" crossorigin="anonymous"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section id="home" class="flex">
+        <video id="homeVideo" playsinline autoplay muted loop>
+            <script>document.getElementById('homeVideo').playbackRate = 0.5</script>
+            <source src="video/Black_-_13495_bugbes.mp4" type="video/mp4">
+        </video>
+        <div id="home-content-container">
+            <div id="homeText">
+                <span>Hi, my name is </span>
+                <span id="homeName">Brandon Cantello</span><span>.</span>
+            <br>
+                <span>I build things for the web.</span>
+            </div>
+            <button id="homeButton">
+                View my work
+            </button>
+        </div>
+        <nav class="site-nav">
+            <div id="hamburger">
+                <ul class="smooth-scroll open">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger-toggle">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <div class="container flex">
+                <div class="header">
+                    ABOUT
+                </div>
+            </div>
+            <div class="flex image-wrapper">
+                <div id="headshot-container flex">
+                    <img src="#" id="headshot">
+                    <div id="hero-description">
+                        I'm a software engineer based in Santa Barbara CA. I enjoy building user centric applications and websites that are as intuitive as they are dynamic.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="wrapper">
+            <div class="header flex">
+                PROJECTS
+            </div>
+            <div id="carousel-container">
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="contact-wrapper" class="wrapper">
+            <div id="contact-angled-feature"></div>
+            <div id="contact-header" class="header flex">
+                CONTACT
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="social-links">
+
+        </div>
+        <div></div>
+    </footer>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+# Project Overview
+
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 4| MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches | Incomplete
+|Day 6| Present | Incomplete
+
+
+## Project Description
+
+This project is a personal portfolio website which will highlight other apps, projects, and websites that I have designed. It will be built using HTML, CSS, JavaScript, jQuery, and any additional libraries such as bootstrap that may provide useful resources. My intention is to create a site that is Responsive, Dynamic, and Intuitive to navigate. To that end not only will it be built with a Mobile First design, but will also utilize dynamic transitions as the user scrolls through the site, helping it come to life.
+
+## Google Sheet
+
+[My portfolio project spreadsheet](https://docs.google.com/spreadsheets/d/1_ZuE250yX7bWNFs82cpKnCjxh0b6CUx40Kf40geVfdY/edit#gid=0) 
+
+## Wireframes
+
+- [Mobile Home](https://res.cloudinary.com/bcantello/image/upload/v1583622741/MobileHome_iay4el.png)
+- [Mobile About](https://res.cloudinary.com/bcantello/image/upload/v1583622741/MobileAbout_nbrunp.png)
+- [Mobile Projects](https://res.cloudinary.com/bcantello/image/upload/v1583622741/MobileProjects_nkcz4e.png)
+- [Mobile Contact](https://res.cloudinary.com/bcantello/image/upload/v1583622741/MobileContact_woll7g.png)
+
+- [Desktop Home](https://res.cloudinary.com/bcantello/image/upload/v1583637979/DesktopHome_akpdyd.png)
+- [Desktop About](https://res.cloudinary.com/bcantello/image/upload/v1583637979/DesktopAbout_i30nnk.png)
+- [Desktop Projects](https://res.cloudinary.com/bcantello/image/upload/v1583637979/DesktopProjects_lu8vmg.png)
+- [Desktop Contact](https://res.cloudinary.com/bcantello/image/upload/v1583637979/DesktopContact_tcrijq.png)
+
+## Time/Priority Matrix 
+
+- [Time Priority Matrix](https://res.cloudinary.com/bcantello/image/upload/v1583717896/TimePriorityMatrix_gcvqdf.png)
+
+#### MVP (examples)
+
+- Layout and Structure
+- Pull data from google sheet using google json api
+- Project tiles
+- Adding Form
+- Hamburger Menu
+- Aesthetics ()
+
+#### PostMVP 
+
+- Dynamic Background
+- Render data in carousal
+- Dynamic Transitions
+- Pop up window Carousel  
+
+## Functional Components
+
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Layout and Structure | H | 5hrs | 3 |  |
+| Hamburger Menu | H | 2hrs|  | 2hrs |
+| Dynamic Background | M | 1.5hrs|  | .75hrs |
+| Carousel | M | 4hrs|  |  |
+| Pop Window | L | 3hrs|  |  |
+| Pop Window Carousel | L | 3hrs|  |  |
+| Adding Form | H | 3hrs|  |  |
+| Working with API | H | 2hrs|  |  |
+| Dynamic Transitions | L | 3hrs|  |  |
+| Aesthetics Home | M | 1hr | .5 |  |
+| Aesthetics About | M | 2hr |  |  |
+| Aesthetics Projects | M | 4hr | .5 |  |
+| Aesthetics Contact | M | 1hr |  |  |
+| Total | H | 34.5hrs |  |  |
+
+## Additional Libraries
+ Use this section to list all supporting libraries and their role in the project. 
+
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
+
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
+
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
