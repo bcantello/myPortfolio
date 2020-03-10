@@ -4,6 +4,12 @@ $('.hamburger-toggle').click(function () {
     $(this).toggleClass('open');
 });
 
+//Dropdown menu toggle function
+$('.menu-toggle').click(function () {
+    $('ul').toggleClass('opening');
+    $('.hamburger-toggle').toggleClass('open');
+});
+
 //Create sticky nav bar
 window.onscroll = function() {makeNavStick()};
 
