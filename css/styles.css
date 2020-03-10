@@ -45,6 +45,7 @@ section {
     z-index: 10;
     width: 100%;
     font-size: 25px;
+    line-height: 1.2em;
 }
 
 #homeName {
@@ -200,7 +201,7 @@ nav a:hover, nav a:focus {
     background: white;
 }
 
-#carousel-container {
+#gallery-container {
     background: #54c0de;
     height: 70%;
     left: 0;
@@ -208,6 +209,27 @@ nav a:hover, nav a:focus {
     bottom: 150px;
     transform: skewY(-6.5deg);
     width: 100%;
+}
+
+#gallery {
+    transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.project-tile {
+    width: calc(50vw - 8px);
+    margin: 4px;
+}
+
+.project-tile img {
+    height: 100%;
+    width: 100%;
+    border: solid 1px #1b242f;
 }
 
 #contact {
