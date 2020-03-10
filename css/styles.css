@@ -45,6 +45,7 @@ section {
     z-index: 10;
     width: 100%;
     font-size: 25px;
+    line-height: 1.2em;
 }
 
 #homeName {
