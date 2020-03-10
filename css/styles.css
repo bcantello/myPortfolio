@@ -213,12 +213,52 @@ nav a:hover, nav a:focus {
 }
 
 #contact-angled-feature {
-    font-size: 0px;
-    line-height: 0%;
     width: 100%;
     border-top: 100px solid white;
     border-left: solid #374352 50vw;
     border-right: solid #374352 50vw;
+}
+
+#contact-one-liner {
+    color: #05C2C9;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    font-size: .9em;
+}
+
+form {
+    width: 95%;
+    margin: 40px auto;
+}
+
+input, textarea {
+    background: #29313D;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+textarea {
+    height: 250px;
+    resize: none;
+}
+
+#success {
+    display: none;
+}
+
+#contact-button {
+    border: solid white 2px;
+    background-color: #374352;
+    width: 100px;
+    margin-top: 5px;
 }
 
 footer {
