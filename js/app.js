@@ -33,7 +33,6 @@ fetch(source)
     .then(data => {
         console.log('data', data);
         let projects = data.feed.entry.map(project => {
-            // console.log('project', project.gsx$title.$t)
             return {
                 title: project.gsx$title.$t,
                 image: project.gsx$image.$t,
@@ -44,7 +43,19 @@ fetch(source)
         app(projects)
     });
 
+const $gallery = $('#gallery');
+
+//Loop over portfolio project array to populate gallery
 function app(projects) {
-    console.log('app - projects', projects)
-    //rest of functionality goes here
+    console.log('app - projects', projects);
+    for(let i=0; i < projects.length; i++) {
+        let $div = $('<div>').attr('class', 'project-tile');
+        let $a = $("<a>");
+        $a.attr('href', projects[i].url).attr('target', '_blank');
+        $gallery.append($div);
+        let $img = $("<img>");
+        $img.attr('src', projects[i].image);
+        $a.append($img);
+        $div.append($a);
+    }
 }
