@@ -75,6 +75,12 @@ nav {
     z-index: 99;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*Begin Hamburger Styling*/
 nav ul {
     display: flex;
@@ -103,7 +109,7 @@ nav a:hover, nav a:focus {
     color: #ff3605;
 }
 
-.site-nav--icon {
+#site-nav--icon {
     font-size: 1.4em;
     margin-right: 1em;
     width: 1.1em;
