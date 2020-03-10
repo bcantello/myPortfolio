@@ -20,6 +20,12 @@ section {
     justify-content: center;
 }
 
+.header-bar {
+    border: solid #444649 2px;
+    width: 100px;
+    margin: 10px auto 0;
+}
+
 #home {
     height: calc(100vh + 52px);
 }
@@ -201,15 +207,21 @@ nav a:hover, nav a:focus {
 #contact {
     background: white;
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 #contact-wrapper {
     background: #374352;
+    height: 90vh;
 }
 
 #contact-header {
     padding-top: 50px;
     color: white;
+}
+
+#contact-header-bar {
+    border-color: white;
 }
 
 #contact-angled-feature {
@@ -262,7 +274,42 @@ textarea {
 }
 
 footer {
-    background-color: #1B242F;
+    background: #1b242f;
+    padding: 30px 0 30px 0;
+    position: relative;
+}
+
+#footer-social-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social-icon {
+    background: transparent;
+    cursor: pointer;
+    font-size: 18pt;
+    height: 25px;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 25px;
+}
+
+svg {
+    color: #54c0de;
+    fill: currentColor;
+}
+
+#footnote {
+    color: #C2CDEC;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#footnote span {
+    color: #ff3605;
 }
 
 @media (min-width: 600px) {
