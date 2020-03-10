@@ -26,6 +26,14 @@ section {
     margin: 10px auto 0;
 }
 
+.general-text {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.2;
+}
+
 #home {
     height: calc(100vh + 52px);
 }
@@ -187,14 +195,55 @@ nav a:hover, nav a:focus {
 }
 
 #headshot {
-    height: 200px;
+    width: 250px;
+    margin: 15px 0 15px 0;
+}
+
+.headshot-container ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
 }
 
 #hero-description {
-    font-family: Raleway, sans-serif;
-    font-weight: 400;
+    margin-top: 60px;
+}
+
+#background-description a {
+    color: #ff3605;
+    text-decoration: none;
+}
+
+#tech-text {
+    margin: 20px 0 0 0;
+}
+
+.about-skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0 0 20px;
+    list-style: none;
+    text-align: left;
+}
+
+.about-skills-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    /*font-size: 13px;*/
+}
+
+.about-skills-item::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #54c0de;
     font-size: 14px;
-    text-align: center;
+    line-height: 12px;
 }
 
 #projects {
@@ -340,7 +389,7 @@ svg {
     color: #ff3605;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 780px) {
     #home-content-container {
         font-size: 40px;
     }
@@ -348,6 +397,9 @@ svg {
         font-size: 25px;
     }
     #hamburger {
+        display: none;
+    }
+    #footer-social-wrapper {
         display: none;
     }
 }
