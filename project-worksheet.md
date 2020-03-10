@@ -60,19 +60,19 @@ This project is a personal portfolio website which will highlight other apps, pr
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Layout and Structure | H | 5hrs | 3 |  |
+| Layout and Structure | H | 5hrs | 4 |  |
 | Hamburger Menu | H | 2hrs|  | 2hrs |
 | Dynamic Background | M | 1.5hrs|  | .75hrs |
 | Carousel | M | 4hrs|  |  |
 | Pop Window | L | 3hrs|  |  |
 | Pop Window Carousel | L | 3hrs|  |  |
-| Adding Form | H | 3hrs|  |  |
+| Adding Form | H | 3hrs|  | 1.5hrs |
 | Working with API | H | 2hrs|  |  |
 | Dynamic Transitions | L | 3hrs|  |  |
 | Aesthetics Home | M | 1hr | .5 |  |
 | Aesthetics About | M | 2hr |  |  |
 | Aesthetics Projects | M | 4hr | .5 |  |
-| Aesthetics Contact | M | 1hr |  |  |
+| Aesthetics Contact | M | 1hr |  | 1 |
 | Total | H | 34.5hrs |  |  |
 
 ## Additional Libraries
