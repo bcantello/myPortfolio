@@ -65,13 +65,17 @@ section {
     line-height: 1.2em;
 }
 
+#homeText {
+    margin-bottom: 1em;
+}
+
 #homeName {
     color: #ff3605;
 }
 
 #homeButton {
+    text-decoration: none;
     font-size: 18px;
-    margin: 20px 0 53px 0;
     padding: 12px 15px;
     position: relative;
     color: white;
