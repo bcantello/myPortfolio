@@ -9,7 +9,7 @@ body {
 
 section {
     color: #616161;
-    padding: 70px 0 70px 0;
+    padding: 3em 0;
     position: relative;
 }
 
@@ -21,9 +21,10 @@ section {
 }
 
 .header-bar {
-    border: solid #444649 2px;
+    border-top: solid #444649 4px;
     width: 100px;
-    margin: 10px auto 0;
+    margin: 10px auto;
+    padding-bottom: 50px;
 }
 
 .general-text {
@@ -52,7 +53,7 @@ section {
     color: #05C2C9;
     z-index: 10;
     width: 100%;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.2em;
 }
 
@@ -174,10 +175,6 @@ nav a:hover, nav a:focus {
     background: white;
 }
 
-.wrapper {
-    height: 100vh;
-}
-
 .container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -202,13 +199,13 @@ nav a:hover, nav a:focus {
 .headshot-container ul {
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-inline-start: 40px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-inline-start: 60px;
 }
 
 #hero-description {
-    margin-top: 60px;
+    width: 90%;
 }
 
 #about-icon-container {
@@ -242,6 +239,10 @@ i {
     color: #05C2C9;
 }
 
+#background-description {
+    width: 90%;
+}
+
 #background-description a {
     color: #ff3605;
     text-decoration: none;
@@ -265,7 +266,6 @@ i {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-    /*font-size: 13px;*/
 }
 
 .about-skills-item::before {
@@ -281,12 +281,11 @@ i {
     background: white;
 }
 
-#gallery-container {
+#blue-skewy {
     background: #54c0de;
-    height: 70%;
+    height: 75%;
     left: 0;
     position: absolute;
-    bottom: 150px;
     transform: skewY(-6.5deg);
     width: 100%;
 }
@@ -298,7 +297,7 @@ i {
     justify-content: center;
     position: relative;
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 1em auto;
 }
 
 .project-tile {
@@ -320,7 +319,6 @@ i {
 
 #contact-wrapper {
     background: #374352;
-    height: 90vh;
 }
 
 #contact-header {
@@ -343,13 +341,14 @@ i {
     color: #05C2C9;
     width: 80%;
     text-align: center;
-    margin: 50px auto;
+    margin: 0 auto 50px auto;
     font-size: .9em;
 }
 
 form {
     width: 95%;
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
+    padding-bottom: 40px;
 }
 
 input, textarea {
@@ -383,7 +382,7 @@ textarea {
 
 footer {
     background: #1b242f;
-    padding: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
     position: relative;
 }
 
@@ -420,7 +419,7 @@ svg {
     color: #ff3605;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 767px) and (max-width: 1023px) {
     #home-content-container {
         font-size: 40px;
     }
