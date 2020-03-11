@@ -66,7 +66,7 @@ This project is a personal portfolio website which will highlight other apps, pr
 | Gallery | M | 4hrs| 2 |  |
 | Pop Window | L | 3hrs|  |  |
 | Pop Window Carousel | L | 3hrs|  |  |
-| Adding Form | H | 3hrs|  | 1.5hrs |
+| Adding Form | H | 3hrs|  | 2.5 |
 | Working with API | H | 2hrs|  | 1hr |
 | Dynamic Transitions | L | 3hrs|  |  |
 | Aesthetics Home | M | 1hr | .5 |  |
@@ -76,7 +76,9 @@ This project is a personal portfolio website which will highlight other apps, pr
 | Total | H | 34.5hrs |  |  |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and their role in the project. 
+ - Form submission functionality handled through [Formspree](https://formspree.io/)
+ - Some icons sourced from [fontawesome](https://fontawesome.com/icons?d=gallery&m=free)
+ - svg sourced from [Simple Icons](https://simpleicons.org/)
 
 ## Code Snippet
 
