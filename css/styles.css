@@ -43,6 +43,10 @@ section {
     line-height: 1.2;
 }
 
+.social-aside-container {
+    display: none;
+}
+
 #home {
     height: calc(100vh + 52px);
 }
@@ -445,6 +449,9 @@ svg {
     #blue-skewy {
         height: 80%;
     }
+    #projects {
+        padding-bottom: 8em;
+    }
     .general-text {
         font-size: 16px;
     }
@@ -465,9 +472,6 @@ svg {
     }
     .header-bar {
         width: 8em;
-    }
-    #projects {
-        padding-bottom: 8em;
     }
     #contact-wrapper {
         padding-bottom: 4em;
@@ -498,9 +502,63 @@ svg {
         font-size: 25px;
     }
     nav {
-        height: 1.5em;
+        height: 1em;
     }
     #hamburger {
         display: none;
     }
+    .header {
+        font-size: 2.5em;
+    }
+    .headshot-container {
+        width: 85vw;
+    }
+    .project-tile {
+        width: 25vw;
+    }
+    #blue-skewy {
+        height: 77%;
+    }
+    #projects {
+        padding-bottom: 9em;
+    }
+   #gallery {
+       padding-top: 3em;
+       max-width: 1200px;
+   }
+    #contact-one-liner {
+        font-size: 18px;
+    }
+    #contact-wrapper {
+        padding-bottom: 4em;
+    }
+    form {
+        width: 60%;
+    }
+    textarea {
+        height: 300px;
+    }
+   #footer-social-wrapper {
+       display: none;
+   }
+   footer {
+       padding: 1em 0;
+   }
+   #footnote {
+       padding-top: .5em;
+   }
+   .social-aside-container {
+       display: block;
+       width: 1.5em;
+       position: fixed;
+       bottom: 4em;
+       left: 1.5em;
+       right: auto;
+       z-index: 10;
+   }
+   svg {
+       color: #ff3605;
+       fill: currentColor;
+       padding: .5em;
+   }
 }
