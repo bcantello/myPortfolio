@@ -125,14 +125,14 @@
             <div id="contact-one-liner">
                 Want to reach out about a collaboration,<br>or just to say hi?
             </div>
-            <form class="flex">
-                <input placeholder="Name" type="text" name="name" required>
-                <input placeholder="Email" type="email" name="email" required>
-                <textarea placeholder="Your Message" name="message"></textarea>
-                <div id="success">
-                    Your message has been sent. Thanks for reaching out!
-                </div>
-                <input id="contact-button" type="submit" value="SUBMIT">
+            <form id="my-form"
+                  action="https://formspree.io/xrglzznr"
+                  method="POST">
+                <input placeholder="Name" type="text" name="name" />
+                <input placeholder="Email" type="email" name="email" />
+                <textarea placeholder="Message" name="message"></textarea>
+                <button id="contact-button">Submit</button>
+                <p id="my-form-status"></p>
             </form>
         </div>
     </section>

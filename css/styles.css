@@ -365,19 +365,25 @@ input, textarea {
 }
 
 textarea {
-    height: 250px;
+    height: 200px;
     resize: none;
-}
-
-#success {
-    display: none;
 }
 
 #contact-button {
     border: solid white 2px;
+    border-radius: 5px;
     background-color: #374352;
+    color: white;
+    font-size: 20px;
     width: 100px;
     margin-top: 5px;
+    float: right;
+}
+
+#my-form-status {
+    font-size: 1em;
+    color: #05C2C9;
+    margin: 1em auto;
 }
 
 footer {
