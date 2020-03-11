@@ -86,21 +86,15 @@ section {
 }
 
 nav {
-    bottom: 0;
+    top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     background: #1b242f;
     border-bottom: 3px solid #04c2c9;
-    height: 50px;
+    height: 2em;
     text-align: left;
     width: 100%;
     z-index: 99;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 /*Begin Hamburger Styling*/
@@ -141,8 +135,8 @@ nav a:hover, nav a:focus {
 
 .hamburger-toggle {
     position: absolute;
-    padding: 0.5em 0.8em;
-    top: 1em;
+    padding: 0.5em 0.5em;
+    top: .5em;
     right: .5em;
     cursor: pointer;
 }
@@ -152,7 +146,7 @@ nav a:hover, nav a:focus {
     display: block;
     background: #EBEBD3;
     height: 3px;
-    width: 2em;
+    width: 1em;
     border-radius: 3px;
     -webkit-transition:all ease-in-out 350ms;
     transition:all ease-in-out 350ms;
@@ -185,6 +179,10 @@ nav a:hover, nav a:focus {
 
 #about {
     background: white;
+}
+
+#about-header {
+    padding-top: 1em;
 }
 
 .container {
@@ -345,13 +343,13 @@ i {
     color: #05C2C9;
     width: 80%;
     text-align: center;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 1.5em auto;
     font-size: .9em;
 }
 
 form {
     width: 95%;
-    margin: 40px auto 0 auto;
+    margin: 1.5em auto 0 auto;
     padding-bottom: 40px;
 }
 
@@ -429,6 +427,12 @@ svg {
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
+    nav {
+        height: 1.5em;
+    }
+    .hamburger-toggle {
+        top: .25em;
+    }
     #home-content-container {
         font-size: 40px;
     }
@@ -483,5 +487,20 @@ svg {
     }
     textarea {
         height: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #home-content-container {
+        font-size: 40px;
+    }
+    #homeButton {
+        font-size: 25px;
+    }
+    nav {
+        height: 1.5em;
+    }
+    #hamburger {
+        display: none;
     }
 }

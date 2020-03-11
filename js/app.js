@@ -10,20 +10,6 @@ $('.menu-toggle').click(function () {
     $('.hamburger-toggle').toggleClass('open');
 });
 
-//Create sticky nav bar
-window.onscroll = function() {makeNavStick()};
-
-let navBar = document.getElementById("site-nav");
-let sticky = navBar.offsetTop;
-
-function makeNavStick() {
-    if (window.pageYOffset >= sticky) {
-        navBar.classList.add("sticky")
-    } else {
-        navBar.classList.remove("sticky");
-    }
-}
-
 //Create array of portfolio objects
 let id = '1_ZuE250yX7bWNFs82cpKnCjxh0b6CUx40Kf40geVfdY';
 let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`;
