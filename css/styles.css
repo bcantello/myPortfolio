@@ -20,6 +20,14 @@ section {
     justify-content: center;
 }
 
+.header {
+    color: #444649;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+}
+
 .header-bar {
     border-top: solid #444649 4px;
     width: 100px;
@@ -181,14 +189,6 @@ nav a:hover, nav a:focus {
     max-width: 1200px;
     padding: 0 10px;
     width: 100%;
-}
-
-.header {
-    color: #444649;
-    font-family: Raleway, sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    position: relative;
 }
 
 #headshot {
@@ -388,7 +388,7 @@ textarea {
 
 footer {
     background: #1b242f;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     position: relative;
 }
 
@@ -400,7 +400,6 @@ footer {
 .footer-social-icon {
     background: transparent;
     cursor: pointer;
-    font-size: 18pt;
     height: 25px;
     margin: 0 15px;
     overflow: hidden;
@@ -432,10 +431,53 @@ svg {
     #homeButton {
         font-size: 25px;
     }
-    #hamburger {
-        display: none;
+    .project-tile {
+        width: calc(50vw - 25px);
+    }
+    #blue-skewy {
+        height: 80%;
+    }
+    .general-text {
+        font-size: 16px;
+    }
+    .about-icon p {
+        font-size: 14px;
+    }
+    .about-icon {
+        width: 200px;
     }
     #footer-social-wrapper {
-        display: none;
+        width: 60%;
+    }
+    form {
+        width: 70%;
+    }
+    .header {
+        font-size: 3em;
+    }
+    .header-bar {
+        width: 8em;
+    }
+    #projects {
+        padding-bottom: 8em;
+    }
+    #contact-wrapper {
+        padding-bottom: 4em;
+    }
+    footer {
+        padding: 2em 0;
+    }
+    .footer-social-icon {
+        height: 2em;
+        width: 2em;
+    }
+    #footnote {
+        font-size: 14px;
+    }
+    #contact-one-liner {
+        font-size: 16px;
+    }
+    textarea {
+        height: 300px;
     }
 }
