@@ -47,6 +47,10 @@ section {
     display: none;
 }
 
+.email-aside-container {
+    display: none;
+}
+
 #home {
     height: calc(100vh + 52px);
 }
@@ -517,14 +521,14 @@ svg {
         width: 25vw;
     }
     #blue-skewy {
-        height: 77%;
+        height: 80%;
     }
     #projects {
         padding-bottom: 9em;
     }
    #gallery {
        padding-top: 3em;
-       max-width: 1200px;
+       max-width: 80vw;
    }
     #contact-one-liner {
         font-size: 18px;
@@ -559,6 +563,30 @@ svg {
    svg {
        color: #ff3605;
        fill: currentColor;
-       padding: .5em;
+       padding: .6em 0;
    }
+   .email-aside-container {
+       display: block;
+       width: 1.5em;
+       position: fixed;
+       bottom: 4em;
+       left: auto;
+       right: 1.5em;
+       z-index: 10;
+   }
+    .email-aside-wrapper {
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        position: relative;
+    }
+    .email-aside-link {
+        text-decoration: none;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        color: #ff3605;
+    }
 }
