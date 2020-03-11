@@ -432,10 +432,8 @@ svg {
     #homeButton {
         font-size: 25px;
     }
-    #hamburger {
-        display: none;
-    }
-    #footer-social-wrapper {
-        display: none;
+    .project-tile {
+        width: calc(50vw - 15px);
+        margin: 4px;
     }
 }
