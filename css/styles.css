@@ -83,6 +83,7 @@ section {
 
 #homeText {
     margin-bottom: 1em;
+    font-family: Raleway, sans-serif;
 }
 
 #homeName {
@@ -523,11 +524,14 @@ svg {
     nav {
         height: 1.2em;
     }
+    .active {
+        color: #ff3605;
+    }
     #desktop-nav {
         display: flex;
         max-width: 70vw;
     }
-    #desktop-nav a {
+    nav a {
         font-family: Raleway, sans-serif;
         text-decoration: none;
         color: #05C2C9;
