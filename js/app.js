@@ -33,13 +33,14 @@ const $gallery = $('#gallery');
 //Loop over portfolio project array to populate gallery
 function app(projects) {
     for(let i=0; i < projects.length; i++) {
-        let $div = $('<div>').attr('class', 'project-tile');
+        let $div = $('<div>')
+            .attr('class', 'project-tile')
+            .css('background', 'url(' + projects[i].image + ')')
+            .css('background-size', 'cover')
+            .css('background-position', 'center center');
         let $a = $("<a>");
         $a.attr('href', projects[i].url).attr('target', '_blank');
         $gallery.append($div);
-        let $img = $("<img>");
-        $img.attr('src', projects[i].image);
-        $a.append($img);
         $div.append($a);
     }
 }
