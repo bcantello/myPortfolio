@@ -516,12 +516,16 @@ svg {
         font-size: 18px;
     }
     #home-content-container {
-        font-size: 40px;
+        font-size: 50px;
     }
     #homeButton {
         font-size: 25px;
+        font-family: Raleway, sans-serif;
     }
     nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: 1.2em;
     }
     .active {
@@ -529,13 +533,15 @@ svg {
     }
     #desktop-nav {
         display: flex;
-        max-width: 70vw;
+        width: 100%;
+        max-width: 75vw;
+        font-size: .8em;
     }
     nav a {
         font-family: Raleway, sans-serif;
         text-decoration: none;
         color: #05C2C9;
-        padding: 0 2em;
+        padding-right: 4em;
         font-size: .5em;
     }
     #desktop-nav a:hover, #desktop-nav a:focus {
