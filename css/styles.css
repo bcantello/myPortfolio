@@ -125,6 +125,7 @@ nav ul.opening {
 }
 
 #hamburger a {
+    font-family: Raleway, sans-serif;
     color: white;
     background: #303030;
     display: block;
@@ -513,16 +514,18 @@ svg {
         font-size: 25px;
     }
     nav {
-        height: 1.5em;
+        height: 1.2em;
     }
     #desktop-nav {
         display: flex;
+        max-width: 70vw;
     }
     #desktop-nav a {
+        font-family: Raleway, sans-serif;
         text-decoration: none;
         color: #05C2C9;
         padding: 0 2em;
-        font-size: .6em;
+        font-size: .5em;
     }
     #desktop-nav a:hover, #desktop-nav a:focus {
         color: #ff3605;

@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete (could be turned in now, but will continue to add dynamic features as time permits)
 |Day 6| Present | Incomplete
 
 
@@ -60,18 +60,18 @@ This project is a personal portfolio website which will highlight other apps, pr
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Layout and Structure | H | 5hrs | 5 |  |
+| Layout and Structure | H | 5hrs |  | 6.5hrs |
 | Hamburger Menu | H | 2hrs|  | 2hrs |
 | Dynamic Background | M | 1.5hrs|  | .75hrs |
-| Gallery | M | 4hrs| 2 |  |
+| Gallery | M | 4hrs|  | 2hrs |
 | Pop Window | L | 3hrs|  |  |
 | Pop Window Carousel | L | 3hrs|  |  |
-| Adding Form | H | 3hrs|  | 2.5 |
+| Adding Form | H | 3hrs|  | 2.5hrs |
 | Working with API | H | 2hrs|  | 1hr |
 | Dynamic Transitions | L | 3hrs|  |  |
-| Aesthetics Home | M | 1hr | .5 |  |
-| Aesthetics About | M | 2hr | 1.5 |  |
-| Aesthetics Projects | M | 4hr | 2.5 |  |
+| Aesthetics Home | M | 1hr |  | 1hr |
+| Aesthetics About | M | 2hr |  | 2.5hrs |
+| Aesthetics Projects | M | 4hr |  | 4hrs |
 | Aesthetics Contact | M | 1hr |  | 1 |
 | Total | H | 34.5hrs |  |  |
 
