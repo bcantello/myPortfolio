@@ -43,6 +43,10 @@ section {
     line-height: 1.2;
 }
 
+#desktop-nav {
+    display: none;
+}
+
 .social-aside-container {
     display: none;
 }
@@ -120,7 +124,7 @@ nav ul.opening {
     height: 30px;
 }
 
-nav a {
+#hamburger a {
     color: white;
     background: #303030;
     display: block;
@@ -511,6 +515,18 @@ svg {
     nav {
         height: 1.5em;
     }
+    #desktop-nav {
+        display: flex;
+    }
+    #desktop-nav a {
+        text-decoration: none;
+        color: #05C2C9;
+        padding: 0 2em;
+        font-size: .6em;
+    }
+    #desktop-nav a:hover, #desktop-nav a:focus {
+        color: #ff3605;
+    }
     #hamburger {
         display: none;
     }
@@ -551,6 +567,9 @@ svg {
     }
     #tech-text {
         width: 100%;
+    }
+    #projects .header {
+        padding-top: .7em;
     }
     .project-tile {
         width: 25vw;
