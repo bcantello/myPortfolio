@@ -17,7 +17,6 @@ let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values
 fetch(source)
     .then(response => response.json())
     .then(data => {
-        console.log('data', data);
         let projects = data.feed.entry.map(project => {
             return {
                 title: project.gsx$title.$t,
@@ -33,7 +32,6 @@ const $gallery = $('#gallery');
 
 //Loop over portfolio project array to populate gallery
 function app(projects) {
-    console.log('app - projects', projects);
     for(let i=0; i < projects.length; i++) {
         let $div = $('<div>').attr('class', 'project-tile');
         let $a = $("<a>");
@@ -82,4 +80,20 @@ function ajax(method, url, data, success, error) {
     xhr.send(data);
 }
 
-//Smooth scroll
+//Highlight nav link based on section
+let $sections = $('section');
+const $nav = $('#site-nav');
+
+$(window).on('scroll', function () {
+    let $currentPosition = $(this).scrollTop() + 100;
+    $sections.each(function () {
+        let $top = $(this).offset().top;
+        let $bottom = $top + $(this).outerHeight();
+        if ($currentPosition >= $top && $currentPosition <= $bottom) {
+            $nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+        } else {
+            $nav.find('a[href="#'+$(this).attr('id')+'"]').removeClass('active');
+        }
+    })
+});
+
