@@ -303,7 +303,7 @@ i {
 
 #blue-skewy {
     background: #54c0de;
-    height: 75%;
+    height: 79%;
     left: 0;
     position: absolute;
     transform: skewY(-6.5deg);
@@ -322,13 +322,8 @@ i {
 
 .project-tile {
     width: calc(50vw - 8px);
+    height: calc(50vw - 8px);
     margin: 4px;
-}
-
-.project-tile img {
-    height: 100%;
-    width: 100%;
-    border: solid 1px #1b242f;
 }
 
 #contact {
@@ -462,12 +457,16 @@ svg {
     }
     .project-tile {
         width: calc(50vw - 25px);
+        height: calc(50vw - 25px);
     }
     #blue-skewy {
-        height: 80%;
+        height: 84%;
     }
     #projects {
         padding-bottom: 8em;
+    }
+    #gallery {
+        width: 97%;
     }
     .general-text {
         font-size: 16px;
@@ -593,6 +592,7 @@ svg {
     }
     .project-tile {
         width: 25vw;
+        height: 25vw;
     }
     #blue-skewy {
         height: 80%;
