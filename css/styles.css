@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Railway, sans-serif;
     overflow-x: hidden;
@@ -445,6 +449,9 @@ svg {
     }
     .hamburger-toggle {
         top: .25em;
+    }
+    #hamburger a {
+        font-size: .5em;
     }
     #home-content-container {
         font-size: 40px;
