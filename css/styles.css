@@ -186,7 +186,7 @@ nav a:hover, nav a:focus {
 /*End Hamburger Styling*/
 
 #about {
-    background: white;
+    background: #f7f7f7;
 }
 
 #about-header {
@@ -499,6 +499,9 @@ svg {
 }
 
 @media (min-width: 1024px) {
+    .general-text {
+        font-size: 18px;
+    }
     #home-content-container {
         font-size: 40px;
     }
@@ -506,7 +509,7 @@ svg {
         font-size: 25px;
     }
     nav {
-        height: 1em;
+        height: 1.5em;
     }
     #hamburger {
         display: none;
@@ -516,6 +519,38 @@ svg {
     }
     .headshot-container {
         width: 85vw;
+    }
+    #hero-description {
+        width: 50%;
+        padding-bottom: 2em;
+    }
+    .about-icon p {
+        font-size: 14px;
+    }
+    .about-icon {
+        width: 300px;
+        font-size: 5em;
+    }
+    #headshot {
+        width: 400px;
+        padding: 2em 0 0 3em;
+    }
+    #about-content {
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        padding: 2em 0 5em 0;
+        justify-content: space-around;
+        margin: 0 2em;
+    }
+    #background-description {
+        width: 75%;
+        text-align: left;
+        padding-top: 6em;
+        margin-right: -5em;
+    }
+    #tech-text {
+        width: 100%;
     }
     .project-tile {
         width: 25vw;
@@ -530,14 +565,18 @@ svg {
        padding-top: 3em;
        max-width: 80vw;
    }
+   #contact .header-bar {
+       padding-bottom: 6em;
+   }
     #contact-one-liner {
         font-size: 18px;
+        padding-bottom: 2em;
     }
     #contact-wrapper {
-        padding-bottom: 4em;
+        padding-bottom: 6em;
     }
     form {
-        width: 60%;
+        width: 50%;
     }
     textarea {
         height: 300px;
