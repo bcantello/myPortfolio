@@ -14,8 +14,9 @@
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="social-aside-container">
+    <div class="social-aside-container animation-element">
         <ul class="social-links">
             <li>
                 <a href="https://github.com/bcantello" target="_blank" rel="nofollow noopener noreferrer" aria-label="GitHub" class="social-aside-icon">
@@ -73,7 +74,7 @@
             </li>
         </ul>
     </div>
-    <div class="email-aside-container">
+    <div class="email-aside-container animation-element">
         <div class="email-aside-wrapper">
             <a href="mailto:bcantello@gmail.com" class="email-aside-link">bcantello@gmail.com</a>
         </div>
@@ -86,12 +87,12 @@
         <div id="home-content-container">
             <nav id="site-nav">
                 <div id="desktop-nav">
-                    <a href="#home" class="active">Home</a>
-                    <a href="#about" >About</a>
-                    <a href="#projects" >Projects</a>
-                    <a href="#contact" >Contact</a>
+                    <a href="#home" class="animation-element active">Home</a>
+                    <a href="#about" class="animation-element">About</a>
+                    <a href="#projects" class="animation-element">Projects</a>
+                    <a href="#contact" class="animation-element">Contact</a>
                 </div>
-                <div id="hamburger">
+                <div id="hamburger" class="animation-element">
                     <ul class="open">
                         <li><a href="#home" class="menu-toggle">Home</a></li>
                         <li><a href="#about" class="menu-toggle">About</a></li>
@@ -104,12 +105,13 @@
                 </div>
             </nav>
             <div id="homeText">
-                <span>Hi, my name is </span>
-                <span id="homeName">Brandon Cantello</span><span>.</span>
+                <span class="animation-element">Hi, my name is </span>
+                <span id="homeName" class="animation-element">Brandon Cantello</span>
+                <span class="animation-element">.</span>
             <br>
-                <span>I build things for the web.</span>
+                <span class="animation-element">I build things for the web.</span>
             </div>
-            <a id="homeButton" href="#about">
+            <a id="homeButton" class="animation-element" href="#about">
                 View my work
             </a>
         </div>
@@ -117,41 +119,47 @@
     <section id="about">
         <div>
             <div class="container flex" id="about-header">
-                <div class="header">
+                <div class="header animation-element">
                     ABOUT
                 </div>
-                <div class="header-bar"></div>
+                <div class="header-bar animation-element"></div>
             </div>
             <div class="flex image-wrapper">
                 <div class="headshot-container flex">
-                    <div id="hero-description" class="general-text">
+                    <div id="hero-description" class="general-text animation-element">
                         I'm a software engineer based in Santa Barbara CA. I enjoy building user centric applications and websites that are as intuitive as they are dynamic.
                     </div>
                     <div id="about-icon-container">
-                        <div class="about-icon">
+                        <div class="about-icon animation-element">
                             <i class="far fa-lightbulb"></i>
                             <p class="about-icon-header">Intuitive</p>
                             <p class="general-text">Applications must have easy to use, intuitive UI/UX.</p>
                         </div>
-                        <div class="about-icon">
+                        <div class="about-icon animation-element">
                             <i class="fas fa-mobile-alt"></i>
                             <p class="about-icon-header">Responsive</p>
                             <p class="general-text">Adaptive to any screen size, designed mobile first.</p>
                         </div>
-                        <div class="about-icon">
+                        <div class="about-icon animation-element">
                             <i class="fas fa-atom"></i>
                             <p class="about-icon-header">Dynamic</p>
                             <p class="general-text">Exciting, non-static pages that come to life.</p>
                         </div>
                     </div>
                     <div id="about-content" class="flex">
-                        <img src="https://res.cloudinary.com/bcantello/image/upload/v1583869472/profileImage_fhbk6l.png" id="headshot">
-                        <div id="about-content-text" class="flex">
+                        <img src="https://res.cloudinary.com/bcantello/image/upload/v1583869472/profileImage_fhbk6l.png"
+                             id="headshot"
+                             class="animation-element">
+                        <div id="about-content-text" class="flex animation-element">
                             <div id="background-description" class="general-text">
                                 Shortly after graduating from the
-                                <a href="https://www.physics.ucsb.edu/" target="_blank" rel="nofollow noopener noreferrer">University of California Santa Barbara</a>
+                                <a href="https://www.physics.ucsb.edu/"
+                                   target="_blank"
+                                   rel="nofollow noopener noreferrer">University of California Santa Barbara</a>
                                 , I joined the engineering team at
-                                <a href="https://www.payjunction.com/payments/" target="_blank" rel="nofollow noopener noreferrer">PayJunction</a>
+                                <a href="https://www.payjunction.com/payments/"
+                                   target="_blank"
+                                   rel="nofollow noopener noreferrer">PayJunction</a>
                                 as an entry level software engineer intern. While there I further honed my skills as an engineer in a test driven development environment.
                             </div>
                             <div class="general-text" id="tech-text">
@@ -177,10 +185,10 @@
     </section>
     <section id="projects">
         <div>
-            <div class="header flex">
+            <div class="header flex animation-element">
                 PROJECTS
             </div>
-            <div class="header-bar"></div>
+            <div class="header-bar animation-element"></div>
             <div id="blue-skewy"></div>
             <div id="gallery">
 
@@ -190,20 +198,18 @@
     <section id="contact">
         <div id="contact-wrapper">
             <div id="contact-angled-feature"></div>
-            <div id="contact-header" class="header flex">
+            <div id="contact-header" class="header flex animation-element">
                 CONTACT
             </div>
-            <div class="header-bar" id="contact-header-bar"></div>
-            <div id="contact-one-liner">
+            <div class="header-bar animation-element" id="contact-header-bar"></div>
+            <div id="contact-one-liner" class="animation-element">
                 Want to reach out about a collaboration,<br>or perhaps just to say hi?
             </div>
-            <form id="my-form"
-                  action="https://formspree.io/xrglzznr"
-                  method="POST">
-                <input placeholder="Name" type="text" name="name" />
-                <input placeholder="Email" type="email" name="email" />
-                <textarea placeholder="Message" name="message"></textarea>
-                <button id="contact-button">Submit</button>
+            <form id="my-form" action="https://formspree.io/xrglzznr" method="POST">
+                <input placeholder="Name" type="text" name="name" class="animation-element"/>
+                <input placeholder="Email" type="email" name="email" class="animation-element"/>
+                <textarea placeholder="Message" name="message" class="animation-element"></textarea>
+                <button id="contact-button" class="animation-element">Submit</button>
                 <p id="my-form-status"></p>
             </form>
         </div>

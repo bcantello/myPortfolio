@@ -1,29 +1,24 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: Railway, sans-serif;
     overflow-x: hidden;
 }
-
 section {
     color: #616161;
     padding: 3em 0;
     position: relative;
 }
-
 .flex {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
-
 .header {
     color: #444649;
     font-family: Raleway, sans-serif;
@@ -31,14 +26,12 @@ section {
     font-size: 30px;
     position: relative;
 }
-
 .header-bar {
     border-top: solid #444649 4px;
     width: 100px;
     margin: 10px auto;
     padding-bottom: 50px;
 }
-
 .general-text {
     font-family: Raleway, sans-serif;
     font-weight: 400;
@@ -46,23 +39,18 @@ section {
     text-align: center;
     line-height: 1.2;
 }
-
 #desktop-nav {
     display: none;
 }
-
 .social-aside-container {
     display: none;
 }
-
 .email-aside-container {
     display: none;
 }
-
 #home {
     height: calc(100vh + 52px);
 }
-
 #homeVideo {
     position: fixed;
     right: 0;
@@ -71,7 +59,6 @@ section {
     min-height: 100%;
     opacity: 80%;
 }
-
 #home-content-container {
     text-align: center;
     color: #05C2C9;
@@ -80,16 +67,13 @@ section {
     font-size: 23px;
     line-height: 1.2em;
 }
-
 #homeText {
     margin-bottom: 1em;
     font-family: Raleway, sans-serif;
 }
-
 #homeName {
     color: #ff3605;
 }
-
 #homeButton {
     text-decoration: none;
     font-size: 18px;
@@ -101,7 +85,6 @@ section {
     border-radius: 5px;
     border-color: #05C2C9;
 }
-
 nav {
     top: 0;
     left: 0;
@@ -113,7 +96,6 @@ nav {
     width: 100%;
     z-index: 99;
 }
-
 /*Begin Hamburger Styling*/
 nav ul {
     display: flex;
@@ -123,12 +105,10 @@ nav ul {
     margin: 0;
     display: none;
 }
-
 nav ul.opening {
     display: block;
     height: 30px;
 }
-
 #hamburger a {
     font-family: Raleway, sans-serif;
     color: white;
@@ -138,11 +118,9 @@ nav ul.opening {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 nav a:hover, nav a:focus {
     color: #ff3605;
 }
-
 #site-nav--icon {
     font-size: 1.4em;
     margin-right: 1em;
@@ -150,7 +128,6 @@ nav a:hover, nav a:focus {
     text-align: right;
     color: rgba(255,255,255,.4);
 }
-
 .hamburger-toggle {
     position: absolute;
     padding: 0.5em 0.5em;
@@ -158,7 +135,6 @@ nav a:hover, nav a:focus {
     right: .5em;
     cursor: pointer;
 }
-
 .hamburger, .hamburger::before, .hamburger::after {
     content: '';
     display: block;
@@ -169,40 +145,32 @@ nav a:hover, nav a:focus {
     -webkit-transition:all ease-in-out 350ms;
     transition:all ease-in-out 350ms;
 }
-
 .hamburger::before {
     -webkit-transform: translateY(-7px);
     transform: translateY(-7px);
 }
-
 .hamburger::after {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
 }
-
 .open .hamburger {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
 .open .hamburger::before {
     display: none;
 }
-
 .open .hamburger::after {
     -webkit-transform: translateY(-1px) rotate(-90deg);
     transform: translateY(-1px) rotate(-90deg);
 }
 /*End Hamburger Styling*/
-
 #about {
     background: #f7f7f7;
 }
-
 #about-header {
     padding-top: 1em;
 }
-
 .container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -210,12 +178,10 @@ nav a:hover, nav a:focus {
     padding: 0 10px;
     width: 100%;
 }
-
 #headshot {
     width: 250px;
     margin: 85px 0 15px 0;
 }
-
 .headshot-container ul {
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -223,18 +189,15 @@ nav a:hover, nav a:focus {
     margin-inline-end: auto;
     padding-inline-start: 60px;
 }
-
 #hero-description {
     width: 90%;
 }
-
 #about-icon-container {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
 }
-
 .about-icon {
     width: 150px;
     height: 50px;
@@ -242,36 +205,29 @@ nav a:hover, nav a:focus {
     margin: 25px 15px 10px 15px;
     text-align: center;
 }
-
 .about-icon p {
     font-size: 12px;
     margin: 10px;
 }
-
 .about-icon-header {
     font-family: Raleway, sans-serif;
     font-weight: 600;
     text-align: center;
     line-height: 1.2;
 }
-
 i {
     color: #05C2C9;
 }
-
 #background-description {
     width: 90%;
 }
-
 #background-description a {
     color: #ff3605;
     text-decoration: none;
 }
-
 #tech-text {
     margin: 20px 0 0 0;
 }
-
 .about-skills-container {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -281,13 +237,11 @@ i {
     list-style: none;
     text-align: left;
 }
-
 .about-skills-item {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
 }
-
 .about-skills-item::before {
     content: "▹";
     position: absolute;
@@ -296,11 +250,9 @@ i {
     font-size: 14px;
     line-height: 12px;
 }
-
 #projects {
     background: white;
 }
-
 #blue-skewy {
     background: #54c0de;
     height: 79%;
@@ -309,7 +261,6 @@ i {
     transform: skewY(-6.5deg);
     width: 100%;
 }
-
 #gallery {
     transform: none;
     display: flex;
@@ -319,39 +270,32 @@ i {
     max-width: 1200px;
     margin: 1em auto;
 }
-
 .project-tile {
     width: calc(50vw - 8px);
     height: calc(50vw - 8px);
     margin: 4px;
 }
-
 #contact {
     background: white;
     padding-top: 0;
     padding-bottom: 0;
 }
-
 #contact-wrapper {
     background: #374352;
 }
-
 #contact-header {
     padding-top: 50px;
     color: white;
 }
-
 #contact-header-bar {
     border-color: white;
 }
-
 #contact-angled-feature {
     width: 100%;
     border-top: 100px solid white;
     border-left: solid #374352 50vw;
     border-right: solid #374352 50vw;
 }
-
 #contact-one-liner {
     color: #05C2C9;
     width: 80%;
@@ -359,13 +303,11 @@ i {
     margin: 0 auto 1.5em auto;
     font-size: .9em;
 }
-
 form {
     width: 95%;
     margin: 1.5em auto 0 auto;
     padding-bottom: 40px;
 }
-
 input, textarea {
     background: #29313D;
     border: 0;
@@ -378,12 +320,10 @@ input, textarea {
     padding: 10px 15px;
     width: 100%;
 }
-
 textarea {
     height: 200px;
     resize: none;
 }
-
 #contact-button {
     border: solid white 2px;
     border-radius: 5px;
@@ -394,24 +334,20 @@ textarea {
     margin-top: 5px;
     float: right;
 }
-
 #my-form-status {
     font-size: 1em;
     color: #05C2C9;
     margin: 1em auto;
 }
-
 footer {
     background: #1b242f;
     padding: 20px 0;
     position: relative;
 }
-
 #footer-social-wrapper {
     display: flex;
     justify-content: space-around;
 }
-
 .footer-social-icon {
     background: transparent;
     cursor: pointer;
@@ -422,23 +358,19 @@ footer {
     text-align: center;
     width: 25px;
 }
-
 svg {
     color: #54c0de;
     fill: currentColor;
 }
-
 #footnote {
     color: #C2CDEC;
     font-size: 12px;
     text-align: center;
     padding-top: 25px;
 }
-
 #footnote span {
     color: #ff3605;
 }
-
 @media (min-width: 767px) and (max-width: 1023px) {
     nav {
         height: 1.5em;
@@ -509,7 +441,6 @@ svg {
         height: 300px;
     }
 }
-
 @media (min-width: 1024px) {
     .general-text {
         font-size: 18px;

@@ -34,7 +34,7 @@ const $gallery = $('#gallery');
 function app(projects) {
     for(let i=0; i < projects.length; i++) {
         let $div = $('<div>')
-            .attr('class', 'project-tile')
+            .attr('class', 'project-tile animation-element')
             .css('background', 'url(' + projects[i].image + ')')
             .css('background-size', 'cover')
             .css('background-position', 'center center');
