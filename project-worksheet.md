@@ -68,7 +68,7 @@ This project is a personal portfolio website which will highlight other apps, pr
 | Pop Window Carousel | L | 3hrs|  |  |
 | Adding Form | H | 3hrs|  | 2.5hrs |
 | Working with API | H | 2hrs|  | 1hr |
-| Dynamic Transitions | L | 3hrs|  |  |
+| Dynamic Transitions | L | 3hrs|  | 3.5hrs |
 | Aesthetics Home | M | 1hr |  | 1hr |
 | Aesthetics About | M | 2hr |  | 2.5hrs |
 | Aesthetics Projects | M | 4hr |  | 4hrs |
