@@ -427,27 +427,21 @@ svg:hover {
     -webkit-transition: all 700ms ease-out;
     -o-transition: all 700ms ease-out;
     transition: all 700ms ease-out;
-    -moz-transform: translate3d(0px, 200px, 0px);
-    -webkit-transform: translate3d(0px, 200px, 0px);
-    -o-transform: translate(0px, 200px);
-    -ms-transform: translate(0px, 200px);
-    transform: translate3d(0px, 200, 0px);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.social-aside-container, .email-aside-container {
-    -moz-transition-delay: 1000ms;
-    -webkit-transition-delay: 1000ms;
-    -o-transition-delay: 1000ms;
-    transition-delay: 1000ms;
-}
-.header, .header-bar{
     -moz-transform: translate3d(0px, 50px, 0px);
     -webkit-transform: translate3d(0px, 50px, 0px);
     -o-transform: translate(0px, 50px);
     -ms-transform: translate(0px, 50px);
     transform: translate3d(0px, 50, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.social-aside-container, .email-aside-container {
+    -moz-transition-delay: 1200ms;
+    -webkit-transition-delay: 1200ms;
+    -o-transition-delay: 1200ms;
+    transition-delay: 1200ms;
 }
 .slide-right {
     opacity: 0;
