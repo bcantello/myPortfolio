@@ -79,6 +79,7 @@ This project is a personal portfolio website which will highlight other apps, pr
  - Form submission functionality handled through [Formspree](https://formspree.io/)
  - Some icons sourced from [fontawesome](https://fontawesome.com/icons?d=gallery&m=free)
  - svg sourced from [Simple Icons](https://simpleicons.org/)
+ - Dynamic transitions referenced from [here](https://www.sitepoint.com/scroll-based-animations-jquery-css3/)
 
 ## Code Snippet
 
