@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="social-aside-container animation-element">
+    <div class="social-aside-container animation-element fade-up">
         <ul class="social-links">
             <li>
                 <a href="https://github.com/bcantello" target="_blank" rel="nofollow noopener noreferrer" aria-label="GitHub" class="social-aside-icon">
@@ -74,7 +74,7 @@
             </li>
         </ul>
     </div>
-    <div class="email-aside-container animation-element">
+    <div class="email-aside-container animation-element fade-up">
         <div class="email-aside-wrapper">
             <a href="mailto:bcantello@gmail.com" class="email-aside-link">bcantello@gmail.com</a>
         </div>
@@ -87,10 +87,10 @@
         <div id="home-content-container">
             <nav id="site-nav">
                 <div id="desktop-nav">
-                    <a href="#home" class="animation-element active">Home</a>
-                    <a href="#about" class="animation-element">About</a>
-                    <a href="#projects" class="animation-element">Projects</a>
-                    <a href="#contact" class="animation-element">Contact</a>
+                    <a href="#home" class="animation-element fade-down active">Home</a>
+                    <a href="#about" class="animation-element fade-down" id="about-link">About</a>
+                    <a href="#projects" class="animation-element fade-down" id="projects-link">Projects</a>
+                    <a href="#contact" class="animation-element fade-down" id="contact-link">Contact</a>
                 </div>
                 <div id="hamburger" class="animation-element">
                     <ul class="open">
@@ -105,13 +105,12 @@
                 </div>
             </nav>
             <div id="homeText">
-                <span class="animation-element">Hi, my name is </span>
-                <span id="homeName" class="animation-element">Brandon Cantello</span>
-                <span class="animation-element">.</span>
-            <br>
-                <span class="animation-element">I build things for the web.</span>
+                <span>Hi, my name is </span>
+                <span id="homeName">Brandon Cantello</span><span>.</span>
+                <br>
+                <span>I build things for the web.</span>
             </div>
-            <a id="homeButton" class="animation-element" href="#about">
+            <a id="homeButton"  href="#about">
                 View my work
             </a>
         </div>
