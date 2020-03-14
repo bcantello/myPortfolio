@@ -35,13 +35,23 @@ function app(projects) {
     for(let i=0; i < projects.length; i++) {
         let $div = $('<div>')
             .attr('class', 'project-tile animation-element')
-            .css('background', 'url(' + projects[i].image + ')')
+            .css("background-image", `url('${projects[i].image}')`)
             .css('background-size', 'cover')
             .css('background-position', 'center center');
         let $a = $("<a>");
         $a.attr('href', projects[i].url).attr('target', '_blank');
+        let $hoverDiv = $('<div>').addClass('project-hover');
+        let $projectTitle = $('<div>').text(projects[i].title).addClass('project-title');
+        let $projectDescription = $('<div>').text(projects[i].description).addClass('project-description');
+        // let $button = $('<button>')
+        //     .text('View Page')
+        //     .addClass('project-button')
+        //     .attr('onclick', `href='${projects[i].url}'`).attr('target', '_blank');
+        let $button = $('<input>').attr('type', 'button').attr('onClick', `parent.open('${projects[i].url}')`);
+        $hoverDiv.append($projectTitle, $projectDescription, $button);
         $gallery.append($div);
-        $div.append($a);
+        // $div.append($a, $hoverDiv);
+        $div.append($hoverDiv);
     }
 }
 
