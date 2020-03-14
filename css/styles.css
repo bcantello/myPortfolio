@@ -279,6 +279,46 @@ i {
     height: calc(50vw - 8px);
     margin: 4px;
 }
+.project-hover{
+    display: none;
+}
+.project-tile:hover .project-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.project-hover {
+    width: calc(50vw - 8px);
+    height: calc(50vw - 8px);
+    position: absolute;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    background-color: white;
+    z-index: 1;
+    opacity: 90%;
+}
+.project-title {
+    width: 100%;
+    font-size: 1em;
+}
+.project-technologies {
+    font-size: .8em;
+}
+.project-description {
+    width: 100%;
+    text-align: center;
+    font-size: .75em;
+}
+#project-button {
+    text-decoration: none;
+    width: 70%;
+    font-size: 1em;
+    font-family: Raleway, sans-serif;
+    position: relative;
+    background: #474747;
+    border-radius: 5px;
+}
 #contact {
     background: white;
     padding-top: 0;
@@ -515,6 +555,27 @@ svg:hover {
     #projects {
         padding-bottom: 8em;
     }
+    .project-hover {
+        width: calc(50vw - 25px);
+        height: calc(50vw - 25px);
+    }
+    .project-title {
+        width: 100%;
+        font-size: 2em;
+    }
+    .project-technologies {
+        font-size: 1.5em;
+    }
+    .project-description {
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+    #project-button {
+        text-decoration: none;
+        width: 60%;
+        font-size: 1.5em;
+    }
     #gallery {
         width: 97%;
     }
@@ -646,11 +707,31 @@ svg:hover {
         padding-bottom: 7em;
     }
     .project-tile {
-        width: 25vw;
-        height: 25vw;
+        width: 20vw;
+        height: 20vw;
+        margin: 1em;
+    }
+    .project-hover {
+        width: 20vw;
+        height: 20vw;
+    }
+    .project-title {
+        font-size: 2em;
+    }
+    .project-technologies {
+        font-size: 1.5em;
+    }
+    .project-description {
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+    #project-button {
+        width: 50%;
+        font-size: 1.5em;
     }
     #blue-skewy {
-        height: 80%;
+        height: 77%;
     }
     #projects {
         padding-bottom: 9em;

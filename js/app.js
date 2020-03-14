@@ -22,7 +22,8 @@ fetch(source)
                 title: project.gsx$title.$t,
                 image: project.gsx$image.$t,
                 description: project.gsx$description.$t,
-                url: project.gsx$url.$t
+                url: project.gsx$url.$t,
+                technologies: project.gsx$technologies.$t
             }
         });
         app(projects)
@@ -35,13 +36,23 @@ function app(projects) {
     for(let i=0; i < projects.length; i++) {
         let $div = $('<div>')
             .attr('class', 'project-tile animation-element')
-            .css('background', 'url(' + projects[i].image + ')')
+            .css("background-image", `url('${projects[i].image}')`)
             .css('background-size', 'cover')
             .css('background-position', 'center center');
         let $a = $("<a>");
         $a.attr('href', projects[i].url).attr('target', '_blank');
+        let $hoverDiv = $('<div>').addClass('project-hover');
+        let $projectTitle = $('<div>').text(projects[i].title).addClass('project-title');
+        let $projectTechnologies = $('<div>').text(projects[i].technologies).addClass('project-technologies');
+        let $projectDescription = $('<div>').text(projects[i].description).addClass('project-description');
+        let $button = $('<input>')
+            .attr('type', 'button')
+            .attr('onClick', `parent.open('${projects[i].url}')`)
+            .attr('id', 'project-button')
+            .attr('value', 'View Project');
+        $hoverDiv.append($projectTitle, $projectTechnologies, $projectDescription, $button);
         $gallery.append($div);
-        $div.append($a);
+        $div.append($hoverDiv);
     }
 }
 
