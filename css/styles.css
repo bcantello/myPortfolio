@@ -654,7 +654,10 @@ svg:hover {
         margin: 1em;
     }
     .project-tile:hover .project-hover {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
     .project-hover {
         width: 20vw;
@@ -662,28 +665,26 @@ svg:hover {
         position: absolute;
         text-align: center;
         font-family: Raleway, sans-serif;
-        background-color: #dedede;
+        background-color: white;
         z-index: 1;
         opacity: 90%;
     }
     .project-title {
         width: 100%;
-        font-size: 1.2em;
+        font-size: 2em;
         padding: 1em 0 2em 0;
     }
     .project-description {
         width: 100%;
         text-align: center;
     }
-    .project-button {
+    #project-button {
         text-decoration: none;
-        font-size: 18px;
-        padding: 12px 15px;
+        width: 50%;
+        font-size: 1.5em;
+        font-family: Raleway, sans-serif;
         position: relative;
-        bottom: 0;
-        color: white;
         background: #474747;
-        box-sizing: inherit;
         border-radius: 5px;
     }
     #blue-skewy {
