@@ -80,10 +80,12 @@
         </div>
     </div>
     <section id="home" class="flex">
-        <video id="homeVideo" playsinline autoplay muted loop>
-            <script>document.getElementById('homeVideo').playbackRate = 0.4</script>
-            <source src="video/Black_-_13495_bugbes.mp4" type="video/mp4">
-        </video>
+        <div id="videoContainer">
+            <video id="homeVideo" playsinline autoplay muted loop>
+                <script>document.getElementById('homeVideo').playbackRate = 0.4</script>
+                <source src="video/Black_-_13495_bugbes.mp4" type="video/mp4">
+            </video>
+        </div>
         <div id="home-content-container">
             <nav id="site-nav">
                 <div id="desktop-nav">
@@ -205,8 +207,8 @@
                 Want to reach out about a collaboration,<br>or perhaps just to say hi?
             </div>
             <form id="my-form" action="https://formspree.io/xrglzznr" method="POST">
-                <input placeholder="Name" type="text" name="name" class="animation-element slide-right"/>
-                <input placeholder="Email" type="email" name="email" class="animation-element slide-left"/>
+                <input placeholder="Name" type="text" name="name" class="animation-element slide-right" required/>
+                <input placeholder="Email" type="email" name="email" class="animation-element slide-left" required/>
                 <textarea placeholder="Message" name="message" class="animation-element slide-right"></textarea>
                 <button id="contact-button" class="animation-element fade-up">Submit</button>
                 <p id="my-form-status"></p>

@@ -94,7 +94,7 @@ nav {
     border-bottom: 3px solid #04c2c9;
     height: 2em;
     text-align: left;
-    width: 100%;
+    width: 100vw;
     z-index: 99;
 }
 /*Begin Hamburger Styling*/
@@ -115,7 +115,8 @@ nav ul.opening {
     color: white;
     background: #303030;
     display: block;
-    padding: .75em 4em .75em 3em;
+    padding: .3em 4em .3em 1em;
+    font-size: .75em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -418,22 +419,6 @@ svg:hover {
 #footnote span {
     color: #ff3605;
 }
-/*Dynamic Transitions Start*/
-.fade-down {
-    opacity: 0;
-    -moz-transition: all 600ms ease-out;
-    -webkit-transition: all 600ms ease-out;
-    -o-transition: all 600ms ease-out;
-    transition: all 600ms ease-out;
-    -moz-transform: translate3d(0px, -50px, 0px);
-    -webkit-transform: translate3d(0px, -50px, 0px);
-    -o-transform: translate(0px, -50px);
-    -ms-transform: translate(0px, -50px);
-    transform: translate3d(0px, -50, 0px);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
 .fade-down.in-view, .fade-up.in-view, .slide-right.in-view,
 .appear.in-view, .slide-left.in-view{
     opacity: 1;
@@ -442,70 +427,6 @@ svg:hover {
     -o-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate3d(0px, 0px, 0px);
-}
-#about-link {
-    -moz-transition-delay: 200ms;
-    -webkit-transition-delay: 200ms;
-    -o-transition-delay: 200ms;
-    transition-delay: 200ms;
-}
-#projects-link {
-    -moz-transition-delay: 400ms;
-    -webkit-transition-delay: 400ms;
-    -o-transition-delay: 400ms;
-    transition-delay: 400ms;
-}
-#contact-link {
-    -moz-transition-delay: 600ms;
-    -webkit-transition-delay: 600ms;
-    -o-transition-delay: 600ms;
-    transition-delay: 600ms;
-}
-.fade-up {
-    opacity: 0;
-    -moz-transition: all 700ms ease-out;
-    -webkit-transition: all 700ms ease-out;
-    -o-transition: all 700ms ease-out;
-    transition: all 700ms ease-out;
-    -moz-transform: translate3d(0px, 50px, 0px);
-    -webkit-transform: translate3d(0px, 50px, 0px);
-    -o-transform: translate(0px, 50px);
-    -ms-transform: translate(0px, 50px);
-    transform: translate3d(0px, 50, 0px);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.social-aside-container, .email-aside-container {
-    -moz-transition-delay: 1200ms;
-    -webkit-transition-delay: 1200ms;
-    -o-transition-delay: 1200ms;
-    transition-delay: 1200ms;
-}
-.slide-right {
-    opacity: 0;
-    -moz-transition: all 500ms linear;
-    -webkit-transition: all 500ms linear;
-    -o-transition: all 500ms linear;
-    transition: all 500ms linear;
-    -moz-transform: translate3d(-100px, 0px, 0px);
-    -webkit-transform: translate3d(-100px, 0px, 0px);
-    -o-transform: translate(-100px, 0px);
-    -ms-transform: translate(-100px, 0px);
-    transform: translate3d(-100px, 0px, 0px);
-}
-.slide-left {
-    opacity: 0;
-    -moz-transition: all 500ms linear;
-    -webkit-transition: all 500ms linear;
-    -o-transition: all 500ms linear;
-    transition: all 500ms linear;
-    -moz-transform: translate3d(100px, 0px, 0px);
-    -webkit-transform: translate3d(100px, 0px, 0px);
-    -o-transform: translate(100px, 0px);
-    -ms-transform: translate(100px, 0px);
-    transform: translate3d(100px, 0px, 0px);
 }
 .appear {
     opacity: 0;
@@ -528,7 +449,6 @@ svg:hover {
     -o-transition-delay: 1000ms;
     transition-delay: 1000ms;
 }
-/*Dynamic transitions end*/
 @media (min-width: 767px) and (max-width: 1023px) {
     nav {
         height: 1.5em;
@@ -621,6 +541,85 @@ svg:hover {
     }
 }
 @media (min-width: 1024px) {
+    .fade-down {
+        opacity: 0;
+        -moz-transition: all 600ms ease-out;
+        -webkit-transition: all 600ms ease-out;
+        -o-transition: all 600ms ease-out;
+        transition: all 600ms ease-out;
+        -moz-transform: translate3d(0px, -50px, 0px);
+        -webkit-transform: translate3d(0px, -50px, 0px);
+        -o-transform: translate(0px, -50px);
+        -ms-transform: translate(0px, -50px);
+        transform: translate3d(0px, -50, 0px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    #about-link {
+        -moz-transition-delay: 200ms;
+        -webkit-transition-delay: 200ms;
+        -o-transition-delay: 200ms;
+        transition-delay: 200ms;
+    }
+    #projects-link {
+        -moz-transition-delay: 400ms;
+        -webkit-transition-delay: 400ms;
+        -o-transition-delay: 400ms;
+        transition-delay: 400ms;
+    }
+    #contact-link {
+        -moz-transition-delay: 600ms;
+        -webkit-transition-delay: 600ms;
+        -o-transition-delay: 600ms;
+        transition-delay: 600ms;
+    }
+    .fade-up {
+        opacity: 0;
+        -moz-transition: all 700ms ease-out;
+        -webkit-transition: all 700ms ease-out;
+        -o-transition: all 700ms ease-out;
+        transition: all 700ms ease-out;
+        -moz-transform: translate3d(0px, 50px, 0px);
+        -webkit-transform: translate3d(0px, 50px, 0px);
+        -o-transform: translate(0px, 50px);
+        -ms-transform: translate(0px, 50px);
+        transform: translate3d(0px, 50, 0px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .social-aside-container, .email-aside-container {
+        -moz-transition-delay: 1200ms;
+        -webkit-transition-delay: 1200ms;
+        -o-transition-delay: 1200ms;
+        transition-delay: 1200ms;
+    }
+    .slide-right {
+        opacity: 0;
+        -moz-transition: all 500ms linear;
+        -webkit-transition: all 500ms linear;
+        -o-transition: all 500ms linear;
+        transition: all 500ms linear;
+        -moz-transform: translate3d(-100px, 0px, 0px);
+        -webkit-transform: translate3d(-100px, 0px, 0px);
+        -o-transform: translate(-100px, 0px);
+        -ms-transform: translate(-100px, 0px);
+        transform: translate3d(-100px, 0px, 0px);
+    }
+    .slide-left {
+        opacity: 0;
+        -moz-transition: all 500ms linear;
+        -webkit-transition: all 500ms linear;
+        -o-transition: all 500ms linear;
+        transition: all 500ms linear;
+        -moz-transform: translate3d(100px, 0px, 0px);
+        -webkit-transform: translate3d(100px, 0px, 0px);
+        -o-transform: translate(100px, 0px);
+        -ms-transform: translate(100px, 0px);
+        transform: translate3d(100px, 0px, 0px);
+    }
     .general-text {
         font-size: 18px;
     }
@@ -715,9 +714,21 @@ svg:hover {
         height: 20vw;
         margin: 1em;
     }
+    .project-tile:hover .project-hover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
     .project-hover {
         width: 20vw;
         height: 20vw;
+        position: absolute;
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        background-color: white;
+        z-index: 1;
+        opacity: .9;
     }
     .project-title {
         font-size: 2em;
@@ -733,6 +744,11 @@ svg:hover {
     #project-button {
         width: 50%;
         font-size: 1.5em;
+        text-decoration: none;
+        font-family: Raleway, sans-serif;
+        position: relative;
+        background: #474747;
+        border-radius: 5px;
     }
     #blue-skewy {
         height: 77%;

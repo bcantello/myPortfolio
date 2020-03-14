@@ -58,7 +58,7 @@ function app(projects) {
             .attr('value', 'View Project');
         $hoverDiv.append($projectTitle, $projectTechnologies, $projectDescription, $button);
         $gallery.append($div);
-        $div.append($hoverDiv);
+        $div.append($a, $hoverDiv);
     }
 }
 
