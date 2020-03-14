@@ -58,7 +58,7 @@ section {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    opacity: 35%;
+    opacity: 0.35;
 }
 #home-content-container {
     text-align: center;
@@ -296,7 +296,7 @@ i {
     font-family: Raleway, sans-serif;
     background-color: white;
     z-index: 1;
-    opacity: 90%;
+    opacity: .9;
 }
 .project-title {
     width: 100%;
@@ -635,7 +635,7 @@ svg:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 1em;
+        height: 1.1em;
     }
     .active {
         color: #ff3605;
@@ -691,11 +691,15 @@ svg:hover {
         justify-content: space-around;
         margin: 0 2em;
     }
+    #about-content-text {
+        width: 50%;
+    }
     #background-description {
-        width: 75%;
+        width: 100%;
         text-align: left;
         padding-top: 6em;
         margin-right: -5em;
+
     }
     #tech-text {
         width: 100%;
