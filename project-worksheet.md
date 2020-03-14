@@ -2,10 +2,6 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
@@ -47,14 +43,14 @@ This project is a personal portfolio website which will highlight other apps, pr
 - Project tiles
 - Adding Form
 - Hamburger Menu
-- Aesthetics ()
+- Aesthetics
 
 #### PostMVP 
 
 - Dynamic Background
-- Render data in carousal
 - Dynamic Transitions
-- Pop up window Carousel  
+- Modal based on project tile click
+- Image carousel in modal with additional images and link to project page  
 
 ## Functional Components
 
@@ -69,11 +65,12 @@ This project is a personal portfolio website which will highlight other apps, pr
 | Adding Form | H | 3hrs|  | 2.5hrs |
 | Working with API | H | 2hrs|  | 1hr |
 | Dynamic Transitions | L | 3hrs|  | 3.5hrs |
+| Project Tile Hover | L | 2hrs|  | 3hrs |
 | Aesthetics Home | M | 1hr |  | 1hr |
 | Aesthetics About | M | 2hr |  | 2.5hrs |
 | Aesthetics Projects | M | 4hr |  | 4hrs |
 | Aesthetics Contact | M | 1hr |  | 1 |
-| Total | H | 34.5hrs |  |  |
+| Total | H | 36.5hrs |  |  |
 
 ## Additional Libraries
  - Form submission functionality handled through [Formspree](https://formspree.io/)
@@ -92,7 +89,9 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+
+- Overlapping divs on mobile layout. Took a while to debug. Ends up I wasn't thinking and gave them a height in vh. 
+No errors listed so had to go through the code line by line to find the problem.
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
