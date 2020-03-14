@@ -42,9 +42,15 @@ function app(projects) {
         let $a = $("<a>");
         $a.attr('href', projects[i].url).attr('target', '_blank');
         let $hoverDiv = $('<div>').addClass('project-hover');
-        let $projectTitle = $('<div>').text(projects[i].title).addClass('project-title');
-        let $projectTechnologies = $('<div>').text(projects[i].technologies).addClass('project-technologies');
-        let $projectDescription = $('<div>').text(projects[i].description).addClass('project-description');
+        let $projectTitle = $('<div>')
+            .text(projects[i].title)
+            .addClass('project-title');
+        let $projectTechnologies = $('<div>')
+            .text(projects[i].technologies)
+            .addClass('project-technologies');
+        let $projectDescription = $('<div>')
+            .text(projects[i].description)
+            .addClass('project-description');
         let $button = $('<input>')
             .attr('type', 'button')
             .attr('onClick', `parent.open('${projects[i].url}')`)
