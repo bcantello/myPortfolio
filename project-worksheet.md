@@ -8,7 +8,7 @@
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
-|Day 5| Final Touches | Complete (could be turned in now, but will continue to add dynamic features as time permits)
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -107,7 +107,3 @@ $(window).on('scroll', function () {
 
 - Overlapping divs on mobile layout. Took a while to debug. Ends up I wasn't thinking and gave them a height in vh. 
 No errors listed so had to go through the code line by line to find the problem.
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
