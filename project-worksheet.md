@@ -70,7 +70,7 @@ This project is a personal portfolio website which will highlight other apps, pr
 | Aesthetics About | M | 2hr |  | 2.5hrs |
 | Aesthetics Projects | M | 4hr |  | 4hrs |
 | Aesthetics Contact | M | 1hr |  | 1 |
-| Total | H | 36.5hrs |  |  |
+| Total | H | 36.5hrs |  | 29.75hrs |
 
 ## Additional Libraries
  - Form submission functionality handled through [Formspree](https://formspree.io/)
@@ -80,12 +80,27 @@ This project is a personal portfolio website which will highlight other apps, pr
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+This section of code handles the transition of the highlighted section in my nav bar as the user scrolls through
+the page. This is the first dynamic javascript that I wrote that served a purely aesthetic purpose, and ended up being
+very useful because it provided a format that I was able to pull from to write the code for later dynamic scroll
+transitions.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+let $sections = $('section');
+const $nav = $('#site-nav');
+
+$(window).on('scroll', function () {
+    let $currentPosition = $(this).scrollTop() + 100;
+    $sections.each(function () {
+        let $top = $(this).offset().top;
+        let $bottom = $top + $(this).outerHeight();
+        if ($currentPosition >= $top && $currentPosition <= $bottom) {
+            $nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+        } else {
+            $nav.find('a[href="#'+$(this).attr('id')+'"]').removeClass('active');
+        }
+    })
+});
 ```
 
 ## Issues and Resolutions
