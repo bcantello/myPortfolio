@@ -323,6 +323,27 @@ i {
     background: #474747;
     border-radius: 5px;
 }
+
+#blog {
+    background: white;
+}
+.VueCarousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.slider-post {
+    margin: 20px;
+}
+.post-title {
+    text-decoration: none;
+}
+.post-title h2 {
+    color: black;
+}
+.mt-2 {
+    display: none;
+}
+
 #contact {
     background: white;
     padding-top: 0;
