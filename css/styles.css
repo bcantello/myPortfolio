@@ -787,6 +787,9 @@ svg:hover {
     #tech-text {
         width: 100%;
     }
+    #blog .header {
+        padding-top: .7em;
+    }
     #projects .header {
         padding-top: .7em;
     }
