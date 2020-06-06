@@ -327,6 +327,7 @@ i {
 #blog {
     background: white;
 }
+/*Blog Carousel CSS*/
 .VueCarousel {
     max-width: 1200px;
     margin: 0 auto;
@@ -339,10 +340,44 @@ i {
 }
 .post-title h2 {
     color: black;
+    margin: 20px;
 }
 .mt-2 {
     display: none;
 }
+a.btn-primary {
+    display: none;
+}
+/*Blog Details css*/
+#post-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.mb-3 h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+.mb-3 figure {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+.mb-3 p {
+    line-height: 32px;
+    font-size: 21px;
+    font-family: Serif, sans-serif;
+}
+h4 {
+    line-height: 32px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Serif, sans-serif;
+    padding-top: 2em;
+}
+.row {
+    max-width: 1000px;
+}
+
 
 #contact {
     background: white;
