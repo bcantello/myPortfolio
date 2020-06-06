@@ -360,12 +360,16 @@ a.btn-primary {
 .mb-3 figure {
     display: flex;
     justify-content: center;
-    padding: 3em;
+    padding: 3em 0;
 }
 .mb-3 p {
     line-height: 32px;
     font-size: 21px;
     font-family: Serif, sans-serif;
+}
+.mb-3 ul {
+    padding: 25px;
+    line-height: 2.5em;
 }
 h4 {
     line-height: 32px;
@@ -376,6 +380,21 @@ h4 {
 }
 .row {
     max-width: 1000px;
+}
+pre {
+    padding: 25px;
+    line-height: 1.5em;
+}
+pre strong {
+    font-weight: 600;
+}
+pre em {
+    font-style: italic;
+}
+blockquote {
+    padding: 25px;
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 
@@ -627,11 +646,17 @@ svg:hover {
         -o-transition-delay: 400ms;
         transition-delay: 400ms;
     }
-    #contact-link {
+    #blog-link {
         -moz-transition-delay: 600ms;
         -webkit-transition-delay: 600ms;
         -o-transition-delay: 600ms;
         transition-delay: 600ms;
+    }
+    #contact-link {
+        -moz-transition-delay: 800ms;
+        -webkit-transition-delay: 800ms;
+        -o-transition-delay: 800ms;
+        transition-delay: 800ms;
     }
     .fade-up {
         opacity: 0;
