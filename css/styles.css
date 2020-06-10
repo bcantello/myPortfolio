@@ -353,12 +353,16 @@ a.btn-primary {
     max-width: 1200px;
     margin: 0 auto;
 }
+.post-date {
+    display: none;
+}
 .mb-3 h1 {
     font-size: 2.5em;
     margin-bottom: .5em;
 }
 .mb-3 figure {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 3em 0;
 }
